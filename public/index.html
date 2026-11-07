@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  index.html - the page structure (what's on the screen).
+  No logic here: app.js fills in the filters, the list and the map.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AccessMap - find accessible places</title>
+  <meta name="description" content="Check how accessible cafés, parks, hospitals and more are for people with disabilities before you leave home.">
+  <!-- Leaflet = the free map library. Tiles come from OpenStreetMap. -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Keyboard users can jump straight past the header -->
+  <a class="skip-link" href="#panel">Skip to search and results</a>
+
+  <header>
+    <div>
+      <h1><span aria-hidden="true">♿</span> AccessMap</h1>
+      <p>Check if a place works for you <em>before</em> you leave home.</p>
+    </div>
+    <span id="ai-status" class="ai-status"></span>
+  </header>
+
+  <main class="layout">
+    <div id="panel" class="panel" tabindex="-1">
+
+      <!-- 1) Ask in plain English (AI) -->
+      <section aria-labelledby="ask-title">
+        <h2 id="ask-title">Ask in your own words</h2>
+        <form id="ai-form" class="ai-form">
+          <label for="ai-query" class="sr-only">Describe what you need</label>
+          <input id="ai-query" type="text" maxlength="300" autocomplete="off"
+                 placeholder="e.g. I use a wheelchair, find a café with an accessible washroom">
+          <button type="submit" class="btn primary">Ask AI</button>
+        </form>
+        <p id="ai-message" class="ai-message" role="status" aria-live="polite"></p>
+      </section>
+
+      <!-- 2) Or pick filters by hand -->
+      <section aria-labelledby="filter-title">
+        <h2 id="filter-title">Or use filters</h2>
+        <label for="type-select">Type of place</label>
+        <select id="type-select"></select>
+
+        <fieldset>
+          <legend>Must have</legend>
+          <div id="feature-checkboxes" class="checkboxes"></div>
+        </fieldset>
+
+        <button type="button" id="reset-btn" class="btn">Reset filters</button>
+      </section>
+
+      <!-- 3) Results -->
+      <section aria-labelledby="results-title">
+        <h2 id="results-title">Results</h2>
+        <p id="count" class="count" role="status" aria-live="polite"></p>
+        <div id="results-list"></div>
+      </section>
+
+      <p class="note">
+        Demo data is fictional and for illustration only. Always confirm with the venue before you travel.
+      </p>
+    </div>
+
+    <div id="map" role="region" aria-label="Map showing the places"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- type="module" lets app.js import config.js and search.js -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# netlify.toml - tells Netlify how to deploy this project.
+# You don't need to fill anything in on the Netlify website; it reads this file.
+
+[build]
+  # No build step: the website is plain files.
+  publish = "public"
+
+[functions]
+  # Where the AI function lives (this is also Netlify's default).
+  directory = "netlify/functions"

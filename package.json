@@ -1,0 +1,11 @@
+{
+  "name": "accessmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered accessibility map for disabled people. DSH v2 Hackathon, AI x Healthcare.",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "node --test"
+  }
+}

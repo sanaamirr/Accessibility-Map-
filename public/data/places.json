@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "name": "Sunrise Café",
+    "type": "cafe",
+    "lat": 31.5325,
+    "lng": 74.3550,
+    "description": "Side-entrance ramp and a calm corner for quiet mornings.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": false,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": false,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 2,
+    "name": "Corner Brew",
+    "type": "cafe",
+    "lat": 31.5110,
+    "lng": 74.3420,
+    "description": "Cosy but three steps at the door and no ramp.",
+    "features": {
+      "wheelchair_access": false,
+      "accessible_washroom": false,
+      "emergency_supplies": false,
+      "accessible_parking": false,
+      "step_free_path": false,
+      "braille_signage": false,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 3,
+    "name": "Green Leaf Café",
+    "type": "cafe",
+    "lat": 31.5460,
+    "lng": 74.3300,
+    "description": "Step-free entrance and a first-aid kit behind the counter. Washroom is upstairs.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": false,
+      "emergency_supplies": true,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": false,
+      "quiet_space": false
+    }
+  },
+  {
+    "id": 4,
+    "name": "Palm Garden Park",
+    "type": "park",
+    "lat": 31.5400,
+    "lng": 74.3700,
+    "description": "Paved loop path, first-aid post at the main gate and a quiet shaded area.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": true,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": false,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 5,
+    "name": "Riverside Park",
+    "type": "park",
+    "lat": 31.5000,
+    "lng": 74.3300,
+    "description": "Flat paths along the river, but no washroom or parking nearby.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": false,
+      "emergency_supplies": false,
+      "accessible_parking": false,
+      "step_free_path": true,
+      "braille_signage": false,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 6,
+    "name": "Old Town Garden",
+    "type": "park",
+    "lat": 31.5650,
+    "lng": 74.3150,
+    "description": "Beautiful but uneven gravel paths and steps at every gate.",
+    "features": {
+      "wheelchair_access": false,
+      "accessible_washroom": false,
+      "emergency_supplies": false,
+      "accessible_parking": false,
+      "step_free_path": false,
+      "braille_signage": false,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 7,
+    "name": "Spice Route Restaurant",
+    "type": "restaurant",
+    "lat": 31.5250,
+    "lng": 74.3300,
+    "description": "Ramp at the entrance, accessible washroom and a braille menu on request.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": false,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": true,
+      "quiet_space": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "Harbor Grill",
+    "type": "restaurant",
+    "lat": 31.5150,
+    "lng": 74.3800,
+    "description": "Wide front door and parking, but steps inside and no accessible washroom.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": false,
+      "emergency_supplies": false,
+      "accessible_parking": true,
+      "step_free_path": false,
+      "braille_signage": false,
+      "quiet_space": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "City Care Hospital",
+    "type": "hospital",
+    "lat": 31.5350,
+    "lng": 74.3350,
+    "description": "Fully accessible: lifts, tactile paths, emergency equipment and a quiet waiting room.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": true,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": true,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Lakeview Clinic",
+    "type": "hospital",
+    "lat": 31.5050,
+    "lng": 74.3600,
+    "description": "Ground-floor ramp and emergency kit, but consulting rooms are upstairs with no lift.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": true,
+      "accessible_parking": false,
+      "step_free_path": false,
+      "braille_signage": false,
+      "quiet_space": false
+    }
+  },
+  {
+    "id": 11,
+    "name": "Central Mall",
+    "type": "mall",
+    "lat": 31.5550,
+    "lng": 74.3550,
+    "description": "Lifts on every floor, accessible washrooms and first-aid desk. Can be loud on weekends.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": true,
+      "accessible_parking": true,
+      "step_free_path": true,
+      "braille_signage": true,
+      "quiet_space": false
+    }
+  },
+  {
+    "id": 12,
+    "name": "Public Library North",
+    "type": "library",
+    "lat": 31.5600,
+    "lng": 74.3400,
+    "description": "Step-free reading rooms, braille section and a silent study area.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": true,
+      "emergency_supplies": false,
+      "accessible_parking": false,
+      "step_free_path": true,
+      "braille_signage": true,
+      "quiet_space": true
+    }
+  },
+  {
+    "id": 13,
+    "name": "Heritage Museum",
+    "type": "museum",
+    "lat": 31.5200,
+    "lng": 74.3150,
+    "description": "Tactile exhibits and quiet galleries. Old building: steps to the upper floor.",
+    "features": {
+      "wheelchair_access": true,
+      "accessible_washroom": false,
+      "emergency_supplies": true,
+      "accessible_parking": true,
+      "step_free_path": false,
+      "braille_signage": true,
+      "quiet_space": true
+    }
+  }
+]
